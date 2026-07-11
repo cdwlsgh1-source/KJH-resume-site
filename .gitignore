@@ -1,0 +1,11 @@
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# 에디터
+.vscode/
+*.swp
+
+# Claude Code 로컬 설정 (기기별 설정이라 공유 저장소에는 불필요)
+.claude/settings.local.json
