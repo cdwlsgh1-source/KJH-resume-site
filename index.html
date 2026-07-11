@@ -1654,7 +1654,7 @@
       var url = URL.createObjectURL(blob);
       var a = document.createElement('a');
       a.href = url;
-      a.download = 'index-v2.html';
+      a.download = (location.pathname.split('/').pop() || 'index.html');
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
